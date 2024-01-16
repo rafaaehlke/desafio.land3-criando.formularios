@@ -142,12 +142,42 @@ legend {
   padding-left: 10px;
 }
 
+.input-wrapper text,
+.input-wrapper textarea,
+.input-wrapper select,
 .input-wrapper input {
-  /* width: 300px; */
+  width: 300px;
   height: 56px;
 
   border-radius: 8px;
   border: 1px solid #E6E6F0;
 
   background: #FAFAFC;
+
+  padding: 10px;
 }
+
+.input-wrapper textarea {
+  width: 608px;
+  height: 167px;
+}
+
+.input-wrapper label {
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
+
+
+.col3-date {
+  display: flex;
+
+  gap: 32px;
+}
+
+.col3-date input {
+  width: 140px;
+  height: 56px;
+}
+.col3-date > div:nth-child(1){
+  width: 300px;
+}   
