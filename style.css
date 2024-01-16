@@ -105,7 +105,7 @@ form {
 }
 
 fieldset {
-
+  border: 0;
 }
 
 legend {
@@ -166,11 +166,20 @@ legend {
   padding-top: 32px;
   padding-bottom: 8px;
 }
+ 
 
+.col-sup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-sup > div:nth-child(3){
+  width: 622px;
+}
 
 .col3-date {
   display: flex;
-
   gap: 32px;
 }
 
