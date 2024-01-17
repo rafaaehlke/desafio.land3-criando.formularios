@@ -187,3 +187,12 @@ legend {
 .col3-date > div:nth-child(1){
   width: 100%;
 }   
+
+
+/* CHECKBOX */
+.checkbox-wrapper {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
