@@ -167,29 +167,46 @@ legend {
   padding-bottom: 8px;
 }
  
+/* Espaçamentos Nome/Sobre/Email */
 
 .col-sup {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 22px;
+  /* border: 1px solid red; */
+  /* flex-wrap: wrap;
+  justify-content: space-between; */
 }
 
 .col-sup > div:nth-child(3){
   width: 100%;
 }
 
+.col-sup div {
+  width: 300px;
+}
+
+/* Agendamento mentoria, espaçamentos */
 .col3-date {
+  border: 1px solid red;
   display: flex;
   gap: 32px;
+  width: 100%;
+}
+
+.col3-date > div:nth-child(2), 
+.col3-date > div:nth-child(3){
+  width: 140px;
 }
 
 
 .col3-date > div:nth-child(1){
-  width: 100%;
+  width: 300px;
+  margin-right: 10px;
 }   
 
 
 /* CHECKBOX */
+
 .checkbox-wrapper {
     padding-top: 30px;
     display: flex;
