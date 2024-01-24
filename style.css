@@ -99,6 +99,8 @@ form {
   padding-top: 31px;
   padding-left: 64px;
   padding-right: 64px;
+
+  margin-bottom: 392px;
   
   border-radius: 0px 0px 20px 20px;
 
@@ -146,6 +148,10 @@ legend {
   padding-left: 10px;
 }
 
+
+span:hover {
+  color: #83808a;
+}
 
 .input-wrapper textarea,
 .input-wrapper select,
@@ -270,9 +276,35 @@ legend {
 
 .checkbox-wrapper input:checked + label::before {
   
-  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 26 26' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath id='Checkbox' d='M1 9C1 4.58172 4.58172 1 9 1H17C21.4183 1 25 4.58172 25 9V16.798C25 21.2163 21.4183 24.798 17 24.798H9C4.58172 24.798 1 21.2163 1 16.798V9Z' fill='%23FAFAFC' stroke='%23E6E6F0'/%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 26 26' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath id='Checkbox' d='M1 9C1 4.58172 4.58172 1 9 1H17C21.4183 1 25 4.58172 25 9V16.798C25 21.2163 21.4183 24.798 17 24.798H9C4.58172 24.798 1 21.2163 1 16.798V9Z' fill='%23E7E7EC' stroke='%23E6E6F0'/%3E%3C/svg%3E%0A");
 }
 
 .checkbox-wrapper input:focus + label::before {
   outline: 2px solid black;
+}
+
+
+input:invalid {
+  border: 1px solid red;
+}
+
+/* Button */
+
+.button {
+  width: 622px;
+  height: 51px;
+
+  background: #F67669;
+  border: none;
+  border-radius: 8px;
+
+  margin: 64px auto;
+
+  color: #FFF;
+
+  font-family: 'Staatliches' , sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+
+  padding: 15px 40px;
 }
